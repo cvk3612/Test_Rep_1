@@ -28,5 +28,12 @@ import testCollections.CollectionClass2;
 	public void myTestInput(String str, int inte) throws Exception{
 		System.out.println("takes string and integer");
 	}
+    
+	public void myTestInput(String str, int inte, boolean flag) throws Exception{
+		if(flag) {
+			System.out.println("Flag is true");
+		}
+		System.out.println("takes string and integer");
+	}
 
 }
