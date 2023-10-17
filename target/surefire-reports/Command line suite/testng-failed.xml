@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="restAssuredTests.TestRequests">
+        <methods>
+          <include name="testSetup"/>
+          <include name="endTest"/>
+          <include name="getRequestValidation"/>
+        </methods>
+      </class> <!-- restAssuredTests.TestRequests -->
+      <class name="appTestScripts.EJLoginTest">
+        <methods>
+          <include name="testSetup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- appTestScripts.EJLoginTest -->
+      <class name="appTestScripts.Test_Register_New">
+        <methods>
+          <include name="registration"/>
+          <include name="endTest"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- appTestScripts.Test_Register_New -->
+      <class name="appTestScripts.Test_Register">
+        <methods>
+          <include name="testSetup"/>
+          <include name="endTest"/>
+          <include name="registration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appTestScripts.Test_Register -->
+      <class name="testsScripts.Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- testsScripts.Test2 -->
+      <class name="appTestScripts.TestAlert">
+        <methods>
+          <include name="testSetup"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- appTestScripts.TestAlert -->
+      <class name="appTestScripts.TestWindowPage">
+        <methods>
+          <include name="testSetup"/>
+          <include name="endTest"/>
+          <include name="windowSwitchTest"/>
+        </methods>
+      </class> <!-- appTestScripts.TestWindowPage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

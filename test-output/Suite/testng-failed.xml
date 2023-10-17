@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test functionality 1(failed)">
+    <classes>
+      <class name="appTestScripts.Test_Register">
+        <methods>
+          <include name="testSetup"/>
+          <include name="endTest"/>
+          <include name="registration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appTestScripts.Test_Register -->
+    </classes>
+  </test> <!-- Test functionality 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
