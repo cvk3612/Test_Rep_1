@@ -36,6 +36,8 @@ import testCollections.CollectionClass2;
 		System.out.println("takes string and integer");
 		
 		System.out.println("Also will be used for calculations");
+		
+		System.out.println("New line added");
 	}
 
 }
