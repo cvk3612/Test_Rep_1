@@ -29,11 +29,13 @@ import testCollections.CollectionClass2;
 		System.out.println("takes string and integer");
 	}
     
-	public void myTestInput(String str, int inte, boolean flag) throws Exception{
-		if(flag) {
+	public void myTestInput(String str, int inte, char c) throws Exception{
+		if(c=='a') {
 			System.out.println("Flag is true");
 		}
 		System.out.println("takes string and integer");
+		
+		System.out.println("Also will be used for calculations");
 	}
 
 }
